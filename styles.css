@@ -1,0 +1,12 @@
+:root {
+    --main-bg-color: #03042e;
+    --main-accent-color: #1f95f0;
+    --main-highlight-color: #0c1b2a;
+
+    --main-text-color: #5ae20e;
+    --secondary-text-color: #286120;
+} 
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }

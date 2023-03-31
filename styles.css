@@ -1,4 +1,4 @@
-@import  url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Lexend+Deca:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400&display=swap');
 
 :root {
     --main-bg-color: #03042e;
@@ -9,11 +9,194 @@
     --secondary-text-color: #286120;
 } 
 
+
 *, *:before, *:after {
     box-sizing: border-box;
+
 }
 
 body {
-    font-family: 'League Spartan', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--main-bg-color);
+    margin: 0;
+    padding: 0;
 }
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+main {
+
+    color: var(--main-text-color);
+}
+
+p {
+    font-weight: 200;
+}
+
+header {
+    background-color: var(--main-highlight-color);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;    
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+#hero {
+    margin-top: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 80px;
+    display: flex;
+    
+    gap: 300px;
+}
+
+#hero-text {
+    max-width: 600px;
+}
+
+#hero-title {
+    font-size: 50px;
+}
+
+#hero-paragraph {
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--secondary-text-color);
+}
+
+#hero-picture {
+    width: 800px;
+}
+
+
+.btn-arrow-main {
+    min-width: 130px;
+    height: 35px;
+    color: var(--main-text-color);
+    padding: 5px 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: var(--secondary-text-color);
+    background-color: var(--main-highlight-color)
+}
+.btn-arrow-main:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+}
+.btn-arrow-main:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+.btn-arrow-main:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 28px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
+
+
+.btn-arrow-secondary {
+    min-width: 130px;
+    height: 35px;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--secondary-text-color);
+}
+.btn-arrow-secondary:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+}
+.btn-arrow-secondary:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+.btn-arrow-secondary:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 28px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
+
+#hero-btns-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+#getstartedbtn {
+    height: 50px;
+    width: 200px;
+}
+
+#getstartedbtn:hover:after {
+    line-height: 41px;
+}
+
+#moreinfobtn {
+    height: 50px;
+    width: 200px;
+}
+
+#moreinfobtn:hover:after {
+    line-height: 45px;
+}
+
+
+/* #navbtns {
+    margin-top: 20px;
+}
+
+button.btn.btn-arrow-main {
+    height: 50px;
+    width: 200px;
+}
+button.btn.btn-arrow-main::after {
+    line-height: 41px;
+}
+
+
+button.btn.btn-arrow-secondary {
+    height: 50px;
+    width: 200px;
+}
+
+button.btn.btn-arrow-secondary::after {
+    line-height: 45px;
+} */

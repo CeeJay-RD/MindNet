@@ -5,46 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MindNet</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
 <body>
     <main>
 
 
-        <div id="header">
+        <header>
 
-            <h2>Mindnet</h2>
-            <input id="searchBar" type="text" placeholder="Search">
-            <h4>Home</h4>
-            <h4>About us</h4>
-            <h4>Contact us</h4>
-            <button class="btn signUp1" onclick="signUp">SIGN UP</button>
-            <button class="btn logIn2" onclick="logIn">LOG IN</button>
+            <div id="logo-section">
+                <h2 id="logo">MindNet</h2>
+            </div>
 
-        </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Contact us</a>
 
-        <div id="mainCotent">
+                <div id="navbtns">
+                    <a href="#"><button class="btn signup btn-arrow-main">SIGN UP</button></a>
+                    <a href="#"><button class="btn logIn2 btn-arrow-secondary"">LOG IN</button></a>
+                </div>
+            </nav>
 
-            <h2>Chat with programers & learn new programing languages</h2>
-            <h4>Learning new programing languages is an easy and pleasent process if it takes place in a friendly dialogue.</h4>
-            <img id="mindnet" src="https://imgs.search.brave.com/o1fvGrKSn6npqVHKQToAPZlX-PUvWAJfmnsuEgEezkg/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5f/Um1lTmZaV3FXVTBw/OENCTE5PSmRRSGFG/aiZwaWQ9QXBp" alt="picture">
-            <button class="btn getStarted3" classonclick="getStarted">GET STARTED</button>
-            <button class="btn moreInfo4" onclick="moreInfo">MORE INFO</button>
-            <img id="subImageMindnet" src="" alt="picture">
-            <h3>Let's go make new programing friends!</h3>
-            <h5>Comunicate with other developers is the best way to improve your skills.</h5>
+        </header>
+
+
+        <div id="hero">
+            <div id="hero-text">
+                <h2 id="hero-title">Chat with programers & learn new programing languages</h2>
+                <p id="hero-paragraph">Learning new programming languages can be both challenging and rewarding, but the experience can be made much easier and more enjoyable if it takes place in a friendly dialogue. By engaging in conversation with others who are knowledgeable about the language, learners can gain insights, tips, and strategies.</p>
+
+                <div id="hero-btns-container">
+                    <button id="getstartedbtn" class="btn btn-arrow-main">GET STARTED</button>
+                    <button id="moreinfobtn" class="btn btn-arrow-secondary">MORE INFO</button>
+                </div>
+            </div>
+            <img id="hero-picture" src="images/undraw_experience_design_re_dmqq.svg" alt="picture">
+
 
         </div>
 
         <div id="footer">
 
+            <img id="subImageMindnet" src="" alt="picture">
+            <h3>Let's go make new programing friends!</h3>
+            <h5>Comunicate with other developers is the best way to improve your skills.</h5>
             <h5 class="textTime1">Saved time</h5>
-            <h6 class="textTime1 contentTime">Conversations and sharing different points of view takes less time than courses or classes</h6>
+            <p class="textTime1 contentTime">Conversations and sharing different points of view takes less time than courses or classes</p>
             <h5 class="textMood2">Good mood</h5>
-            <h6 class="textMood2 contentMood">Friendly chatter? In our case it is also a great programing language practice</h6>
+            <p class="textMood2 contentMood">Friendly chatter? In our case it is also a great programing language practice</p>
             <h5 class="textMoney3">Saved money</h5>
-            <h6 class="textMoney3 contentMoney">Our services is totally free without any additionally or hidden payments</h6>
+            <p class="textMoney3 contentMoney">Our services is totally free without any additionally or hidden payments</p>
 
         </div>
 

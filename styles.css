@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Lexend+Deca:wght@500;900&display=swap');
+
 :root {
     --main-bg-color: #03042e;
     --main-accent-color: #1f95f0;
@@ -9,4 +11,5 @@
 
 *, *:before, *:after {
     box-sizing: border-box;
-  }
+}
+

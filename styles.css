@@ -7,6 +7,7 @@
 
     --main-text-color: #5ae20e;
     --secondary-text-color: #286120;
+    --main-light-text-color: #c8e9c4;
 } 
 
 
@@ -44,6 +45,10 @@ header {
     padding-right: 90px;    
 }
 
+#logo {
+    font-size: 32px;
+}
+
 nav {
     display: flex;
     gap: 40px;
@@ -71,7 +76,7 @@ nav {
 #hero-paragraph {
     font-size: 22px;
     font-weight: 300;
-    color: var(--secondary-text-color);
+    color: var(--main-light-text-color);
 }
 
 #hero-picture {
@@ -120,7 +125,7 @@ nav {
 .btn-arrow-secondary {
     min-width: 130px;
     height: 35px;
-    color: #fff;
+    color: var(--main-light-text-color);
     padding: 5px 5px;
     font-weight: bold;
     cursor: pointer;

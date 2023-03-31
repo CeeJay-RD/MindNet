@@ -34,6 +34,7 @@ main {
 }
 
 p {
+    color: var(--main-light-text-color);
     font-weight: 200;
 }
 
@@ -183,25 +184,27 @@ nav {
     line-height: 45px;
 }
 
+#communication {
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    justify-content: space-between;
+}
 
-/* #navbtns {
+#communication-img {
+    width: 100px;
+}
+
+#communication-container-left {
+    max-width: 500px;
+    display: flex;
+}
+
+#communication-lefttext-container {
     margin-top: 20px;
+    margin-left: 20px;
 }
 
-button.btn.btn-arrow-main {
-    height: 50px;
-    width: 200px;
+.communication-card {
+    max-width: 200px;
 }
-button.btn.btn-arrow-main::after {
-    line-height: 41px;
-}
-
-
-button.btn.btn-arrow-secondary {
-    height: 50px;
-    width: 200px;
-}
-
-button.btn.btn-arrow-secondary::after {
-    line-height: 45px;
-} */

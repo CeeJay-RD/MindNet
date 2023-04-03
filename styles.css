@@ -8,6 +8,7 @@
     --main-text-color: #5ae20e;
     --secondary-text-color: #286120;
     --main-light-text-color: #c8e9c4;
+    --main-footer-color: #1a1b47;
 } 
 
 
@@ -192,7 +193,7 @@ nav {
 }
 
 #communication-img {
-    width: 100px;
+    width: 80px;
 }
 
 #communication-container-left {
@@ -207,4 +208,29 @@ nav {
 
 .communication-card {
     max-width: 200px;
+}
+
+#footer {
+    background-color: var(--main-footer-color); 
+    margin-top: 10%;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 94%;
+}
+
+#copyright-Text {
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    color: var(--secondary-text-color);
+}
+
+#footerSlogan {
+    padding-top: 10px;
+    padding-left: 10px;
 }
